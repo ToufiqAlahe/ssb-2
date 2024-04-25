@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+<title> ssb619-2</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+.mydiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<!-- this a comment.Commrnts are not displayed-->
+
+<a href="https://www.w3schools.com"> visit w3school</a>
+
+<p> The <abbr title="World Heealth Organization"> WHO</abbr> was founded in 1948.</p>
+
+<address> written by<a href="mailto:webmaster@example.com"> Jon Doe</a><br>
+  Address:California<br>
+USA </address>
+
+<h1>The map and area elements</h1>
+
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+<h1> The article element</h1>
+<article>
+  <h2> Google chrome</h2>
+  <p> Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+</article>
+<article>
+  <h2> Mozilla Firefox</h2>
+  <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+</article>
+<article>
+  <h2>Microsoft Edge</h2>
+  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+</article>
+
+<h1>The aside element</h1>
+
+<p>My family and I visited the Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+<aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+<h1>The audio element</h1>
+
+<p>Click on the play button to play a sound:</p>
+<audio controls>
+  <source src="audio.ogg" type="audio/ogg">
+  <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+<h1>The b element</h1>
+
+<p>This is normal text -<b>and this is a bold text</b>.</p>
+<h1>The bdi element</h1>
+
+<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+<ul>
+  <li> User<bdi> hrefs</bdi>:60 points</li>
+  <li> User<bdi> jode</bdi>: 80 points</li>
+  <li> User<bdi>إيان</bdi>:50 points</li>
+</ul>
+<h1>The bdo element</h1>
+
+<p>This paragraph will go left-to-right.</p>
+<p> <bdo dir="rtl">This paragraph will go left-to-right.</bdo></p>
+
+<h1>The blockquote element</h1>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+<p> To force<br> line breaks<br>in a text,<br> use br<br>element</p>
+
+<h1>The button Element</h1>
+<button type="button" onclick="alert('Hello world')"> Click Me </button>
+
+<h1>HTML5 Canvas</h1>
+<canvas id="mycanvas" width="350" height="150" style="border:2px solid grey"></canvas>
+
+<table>
+  <caption> Monthly savings</caption>
+  <tr>
+    <th>month</th>
+    <th>saving</th>
+  </tr>
+  <tr>
+    <th>january</th>
+    <th>$100</th>
+  </tr>
+  <tr>
+    <th>february</th>
+    <th>$50</th>
+  </tr>
+</table>
+
+  <h1>The cite element</h1>
+  <img src="images/img_the_scream.jpg" width="220" height="227" alt="The scream">
+  <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+<h1>The code element</h1>
+<p>The html<code> button</code> defines a clickable button</p>
+<p> it is <code> click button</code> </p>
+<h1>The col element</h1>
+
+<table>
+  <colgroup>
+  <col span="2" style="background-color:red">
+  <col style="background-color:green">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<h1>The data element</h1>
+
+<p>The following example displays product names but also associates each name with a product number:</p>
+<ul>
+  <li><data value="21053">cherry tomato</data></li>
+    <li><data value="21054"> beef tomato</data></li>
+<li><data value="21055"> snack tomato</data></li>
+</ul>
+<h1>The datalist element</h1>
+<form action="/action_page.php" method="get">
+  <label for="browser">choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+  <option value="Edge">
+   <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+  </form>
+ <h1>The dl, dd, and dt elements</h1>
+
+<p>These three elements are used to create a description list:</p>
+<dl>
+<dt>Coffee</dt>
+<dd> Black hot drink</dd>
+<dt> Milk</dt>
+<dd> White cold drink</dd>
+</dl> 
+<h1>The del element</h1>
+<p> My favourite colour is <del>red</del> <ins>blue</ins>!</p>
+
+<h1>The details element</h1>
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+<h1>The dfn element</h1>
+<p><dfn> HTML</dfn> stands for hyper text markup language</p>
+<h1>The dialog element</h1>
+
+<p>This is some text.</p>
+
+<p>This is some text.</p>
+<dialog open>This is an open dialog window.</dialog>
+<p>This is some text.</p>
+
+
+
+
+<h1>The div element</h1>
+
+<Div class="mydiv">
+<h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</Div>
+<h1>The em element</h1>
+<p> You<em> have</em> to hurry up</p>
+<p>We <em>must</em> run for the train</p>
+
+<h1>The embed element</h1>
+<embed type="image/jpg" src="images/snippet.jpg" width="500" height="400">
+
+ <h1>The fieldset element</h1>
+<fieldset><p>My name is <input value="hello world"></p>
+</fieldset>
+
+<h1>The figure and figcaption element</h1>
+<figure>
+  <img src="images/pic_trulli.jpg" alt="Trulli" style="width:30%">
+  <figcaption> Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+
+<h1>The footer element</h1>
+
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+
+<h1>The form element</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+<article>
+<header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+</article>
+
+<hgroup>
+  <h2> NORWAY</h2>
+  <p>The land with midnight sun</p>
+</hgroup>
+<h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+<hr>
+<p><p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+<h1>The i element</h1>
+
+<p><i>Lorem ipsum</i> is the most popular filler text in history</p>
+<p><i>RMS Titanic</i> a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+
+
+
+<iframe src="images/world.jpg" title="world" width="300" height="200" style="border:none">
+</iframe>
+<h1>The kbd element</h1>
+
+<p>Press <kbd> ctrl</kbd>+<Kbd> C </kbd> to copy text (Windows).</p>
+<p> Press <kbd> ctrl </kbd>+ <kbd> V </kbd> to paste text (Windows).</p>
+<br>
+<fieldset>
+  <legend>Personalia:</legend>
+  </fieldset>
+
+  <h1>The ol and ul elements</h1>
+
+<p>The ol element defines an ordered list:</p>
+<ol>
+ <li> Water</li>
+ <li> Coffee</li>
+ <li> Tea</li>
+</ol>
+<p>The ul element defines an unordered list:</p>
+<ul>
+  <li> coffee</li>
+  <li> Water</li>
+  <li> Tea</li>
+</ul>
+
+
+
+
+
+</body>
+</html>
